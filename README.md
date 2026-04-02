@@ -22,12 +22,6 @@ Type your expenses in plain English like **"Spent 850 on lunch at Taj"** and AI 
 | Database   | SQLite (via better-sqlite3)                      |
 | AI Engine  | Groq API — llama-3.3-70b-versatile (free tier)  |
 
-## Demo
-
-> TODO: Add a 2-3 minute screen recording showing the full flow
-
----
-
 ## How to Run This Project (Step by Step)
 
 ### What You Need Before Starting
@@ -303,16 +297,6 @@ The backend uses this system prompt to tell the AI how to parse expenses:
 | AI returns wrong categories | This is normal occasionally — the AI is not 100% perfect |
 | `expo start` shows errors | Try deleting `node_modules` and running `npm install` again |
 | Phone can't scan QR code | Make sure phone and computer are on the same Wi-Fi network |
-
-## What I'd Add With More Time
-
-- [ ] Edit an existing expense
-- [ ] Monthly spending charts and analytics
-- [ ] Filter expenses by category
-- [ ] Export expenses as CSV
-- [ ] User login and multi-user support
-- [ ] Offline mode (save locally when no internet)
-- [ ] Unit and integration tests
 
 ## AI Tools Used
 
